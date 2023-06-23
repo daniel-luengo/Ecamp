@@ -90,9 +90,61 @@ var area =  (diagonalMayor*diagonalMenor)/2;
 document.write("El area del rombo es igual a " + area)
 */
 /***************************************************************************************************/
-
+/*
 var dato;
 
 dato = prompt=("Ingrese un dato cualquiera");
 
 document.write("el tipo de dato que ingreso es " + typeof(dato))
+*/
+/***************************************************************************************************/
+
+// var nombre = "Daniel";
+
+// alert(`Hola ${nombre}`)
+// alert(`Hola ${prompt('Ingresa tu nombre')}`)
+
+/*
+var texto_a = "Saludos";
+var texto_b = "a todos";
+var num1 = 20;
+var num2 = 30;
+console.log("La suma de: "+num1+", más: "+num2+", es: "+num1+num2+".");
+console.log(texto_a+" "+texto_b+".");
+*/
+// var num1 = 20;
+// var num2 = 30;
+
+// console.log(`La suma de ${num1} + ${num2} es ${num1 + num2};`)
+// console.log(`Saludos a todos`)
+
+/***************************************************************************************************/
+/*
+
+Ejercicio guiado: Resolver un problema usando variables y tipos de datos
+Una vez manejado el uso de variables, es posible utilizarlas para resolver diferentes tipos de
+problemas. Se solicita codificar lo siguiente usando JavaScript:
+1. Pide al usuario que ingrese su nombre.
+2. Pide al usuario que ingrese un número.
+3. Pide al usuario que ingrese un segundo número.
+4. Muestra la suma, la resta, la división y la multiplicación entre los dos números
+ingresados.
+5. Debe ser un único mensaje por cada operación (4 en total).
+6. El mensaje debe seguir el siguiente formato: {Nombre del usuario}, el resultado de
+{nombre de la operación} {primer número} y {segundo número} es {resultado de la
+operación}. Por ejemplo: "Alexis, el resultado de sumar 1 y 2 es 3".
+7. Para mostrar el mensaje pueden implementar document.write();*/
+
+var nombre;
+var num1;
+var num2;
+
+// alert(` ${num1 = parseInt(prompt('Ingresa  un numero'))} ${num2 = parseInt(prompt('Ingresa otro numero'))} Hola ${prompt('Ingresa tu nombre')} el resultado de sumar ${num1} + ${num2} es ${num1 + num2}`)
+
+nombre = prompt("Ingresa tu nombre");
+num1 = parseInt(prompt("Ingresa un numero"));
+num2 = parseInt(prompt("Ingresa numero 2"));
+
+var suma = num1 + num2;
+
+document.write(`Hola ${nombre}, el resultado de la sumar ${num1} y ${num2} es: ${suma}`)
