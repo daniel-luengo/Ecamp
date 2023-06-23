@@ -135,16 +135,41 @@ ingresados.
 operación}. Por ejemplo: "Alexis, el resultado de sumar 1 y 2 es 3".
 7. Para mostrar el mensaje pueden implementar document.write();*/
 
-var nombre;
-var num1;
-var num2;
+// var nombre;
+// var num1;
+// var num2;
 
 // alert(` ${num1 = parseInt(prompt('Ingresa  un numero'))} ${num2 = parseInt(prompt('Ingresa otro numero'))} Hola ${prompt('Ingresa tu nombre')} el resultado de sumar ${num1} + ${num2} es ${num1 + num2}`)
 
+// nombre = prompt("Ingresa tu nombre");
+// num1 = parseInt(prompt("Ingresa un numero"));
+// num2 = parseInt(prompt("Ingresa numero 2"));
+
+// var suma = num1 + num2;
+
+// document.write(`Hola ${nombre}, el resultado de la sumar ${num1} y ${num2} es: ${suma}`)
+
+
+/***************************************************************************************************/
+/*
+Realizar un programa con JavaScript que solicite al usuario el primer nombre, el
+primer apellido, la edad y el número de identificación único, para mostrar en un solo
+mensaje mediante la instrucción document.write() y con interpolación de variables lo
+siguiente: Hola {nombre}, tu edad es {edad} y tu número de identificación es {id}.
+Ejemplo: “Hola Juan, tu edad es 34 y tu número de identificación es 12345678-9”
+*/
+
+var nombre;
+var apellidoPaterno;
+var edad;
+var numeroId;
+
 nombre = prompt("Ingresa tu nombre");
-num1 = parseInt(prompt("Ingresa un numero"));
-num2 = parseInt(prompt("Ingresa numero 2"));
+apellidoPaterno = prompt("Ingrese apellido paterno");
+edad = parseInt(prompt ("Ingresa tu edad"));
+numeroId= parseInt(prompt("Ingresa el numero de tu id"))
 
-var suma = num1 + num2;
 
-document.write(`Hola ${nombre}, el resultado de la sumar ${num1} y ${num2} es: ${suma}`)
+document.write(`Hola ${nombre + ' ' + apellidoPaterno}   tu edad es ${edad} y el numero de identificacion es ${numeroId}`)
+
+
