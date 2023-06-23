@@ -18,6 +18,6 @@ num4 = parseInt(prompt("Ingrese numero 4"));
 num5 = parseInt(prompt("Ingrese numero 5"));
 
 var suma = num1 + num2 + num3 + num4 + num5;
-var promedio = suma / 5
+var promedio = suma / 5;
 
 document.write(`La suma de los 5 numeros es ${suma} y el promedio es ${promedio}`)
