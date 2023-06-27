@@ -54,4 +54,4 @@ if (num2 <0) {
 }
 if (num2 >= num1 ) {
     alert(`El ${num2} es mayor o igual que ${num1}`)
-}
+} 
