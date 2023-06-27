@@ -24,11 +24,12 @@ num1 = parseInt(prompt("Ingrese un numero"));
 num2 = parseInt(prompt("Ingrese un numero mas"));
 
 if (num1 <= num2) {
-    if(num2>=0) {
-        if(num1 < 0 || num1 != 0)
-        alert("TAREA COMPLETADA")
+    alert(`El ${num1} es menor que ${num2}`);
+}
+if(num2>=0) {
+    alert(`El ${num2} es mayor o igual a 0`)
     }
+if(num1 < 0 || num1 != 0) {
+    alert(`Se cumple que  ${num1} o es menor o diferente que cero`)
 }
-else {
-    ("No se cumplen los parametros")
-}
+      
