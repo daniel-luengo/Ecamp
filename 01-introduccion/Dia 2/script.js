@@ -16,7 +16,7 @@ Solicitar al usuario que ingrese dos números enteros y comparar si el primer n�
 menor o igual que el segundo. Luego, comprobar si el segundo número es mayor o igual que
 cero. Finalmente, comprobar si el primer número es menor que cero o distinto de cero.
 */
-
+/*
 var num1;
 var num2;
 
@@ -32,4 +32,26 @@ if(num2>=0) {
 if(num1 < 0 || num1 != 0) {
     alert(`Se cumple que  ${num1} o es menor o diferente que cero`)
 }
+*/
       
+/************************************************************ */
+/*
+Realiza un programa en JavaScript implementando la estructura de control if, que solicite al
+usuario ingresar dos números y que compruebe si el número 1 es positivo, si el número dos
+es negativo y finalmente si el número 2 es mayor o igual que el número 1, indicando si se
+cumple cada condición mediante un alert.
+*/
+
+
+var num1 = parseInt(prompt("Ingresa un umero"));
+var num2 = parseInt(prompt("Ingresa otro numero"));
+
+if (num1 >0 ) {
+    alert(`El ${num1} es prositivo`);
+}
+if (num2 <0) {
+    alert(`El ${num2} es negativo`)
+}
+if (num2 >= num1 ) {
+    alert(`El ${num2} es mayor o igual que ${num1}`)
+}
