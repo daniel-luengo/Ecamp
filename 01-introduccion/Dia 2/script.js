@@ -82,6 +82,7 @@ if (nombre === "") {
 */
 /*************************************************************/
 
+/*
 var nombre = "Victor";
 
 if (nombre == "Gary") {
@@ -90,4 +91,19 @@ if (nombre == "Gary") {
     alert("Hola Victor")
 } else {
     alert("¿Quien eres?")
+}
+*/
+/*************************************************************/
+/*
+Solicitar al usuario que responda a una pregunta en específico, en este caso: “¿Quiere usted
+aprender a programar con JavaScript?”, si el usuario responde que “Si” o “SI” o “si”, enviar el
+mensaje: “Felicitaciones, ya eres parte de Desafío Latam”, de lo contrario: “Que lastima!!!… te
+esperamos”. Por lo tanto, sigamos los siguientes pasos:
+*/
+
+var pregunta = prompt("¿Quiere usted aprender Javascript?");
+if  (pregunta =="Si" || pregunta == "SI" || pregunta == "si") {
+    alert("Bienvenido al curso Javascript")
+} else {
+    alert("Que lastima!")
 }
