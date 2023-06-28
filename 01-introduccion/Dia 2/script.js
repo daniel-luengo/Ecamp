@@ -71,11 +71,23 @@ if (edad >= 18) {
 }
 */
 /*************************************************************/
-
+/*
 var nombre = prompt("Ingresa tu nombre");
 
 if (nombre === "") {
     alert("No ingresaste ningun nombre")
 } else {
     alert(`Hola ${nombre}`)
+}
+*/
+/*************************************************************/
+
+var nombre = "Victor";
+
+if (nombre == "Gary") {
+    alert("Hola Gary")
+} else if (nombre == "Victor") {
+    alert("Hola Victor")
+} else {
+    alert("¿Quien eres?")
 }
