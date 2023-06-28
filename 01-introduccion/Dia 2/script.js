@@ -43,6 +43,7 @@ cumple cada condición mediante un alert.
 */
 
 
+/*
 var num1 = parseInt(prompt("Ingresa un umero"));
 var num2 = parseInt(prompt("Ingresa otro numero"));
 
@@ -55,3 +56,26 @@ if (num2 <0) {
 if (num2 >= num1 ) {
     alert(`El ${num2} es mayor o igual que ${num1}`)
 } 
+*/
+
+/*************************************************************/
+
+/*
+var edad;
+edad = parseInt(prompt("Ingresa tu edad"));
+
+if (edad >= 18) {
+    alert("Eres mayor edad")
+} else {
+    alert("Eres menor de edad")
+}
+*/
+/*************************************************************/
+
+var nombre = prompt("Ingresa tu nombre");
+
+if (nombre === "") {
+    alert("No ingresaste ningun nombre")
+} else {
+    alert(`Hola ${nombre}`)
+}
