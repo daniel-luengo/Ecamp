@@ -15,4 +15,4 @@ switch(num) {
         break;
         default: alert("No ingreso uno de los numeros pedidos")
 }
- 
+  
